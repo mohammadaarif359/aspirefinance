@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
 		$user = User::create([
             'name' => 'aspire finance',
 			'username' => 'aspire finance',
-            'email' => 'admin@aspirefinance@gmail.com',
+            'email' => 'aspirefinance@gmail.com',
 			'mobile'=> '8290027579',
             'password' => Hash::make('admin@123'),
 			'is_active'=>1,
