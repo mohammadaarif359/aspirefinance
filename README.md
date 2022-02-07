@@ -67,5 +67,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 ## Code Logic
-Get the git repo and after all installtion and setup git run the db seeder command for default admin user with   email - aspirefinance@gmail.com   password - admin@123
+1 Get the git repo and after all installtion and setup git run the db seeder command for default admin user with   email - aspirefinance@gmail.com   password - admin@123
+2 create customer user by register and login
+3 apply loan by login user
+4 admin can approve or reject the loan , loan apply status will 0 = pending, 1 = approved, 2 = rejected
+5 after aprove loan it can create loan entry by request loan id, prinicple amount, emi, intrest etc
+6 customer user can pay emi 
 
